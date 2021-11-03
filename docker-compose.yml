@@ -2,12 +2,14 @@ version: "3.9"
 
 services:
   flask:
-    image: flask-api
+    image: links-app
     build:
       context: .
       dockerfile: Dockerfile
     ports:
-    - 5000:5000
+      - 5000:5000
+    environment:
+      - DATABASE_HOST=redis
     depends_on:
       - redis
 
