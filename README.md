@@ -17,4 +17,3 @@ git clone https://github.com/mercuriaal/funbox_test.git
     pip install -r requirements.txt
     ```
   * Введите в корне проекта команду `flask run`
-  * **Для данного способа на локальном компьютере должен быть установлен Redis**
